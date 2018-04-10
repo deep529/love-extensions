@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Bajate Raho!",
+    "version": "0.1",
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": "images/icon16.png",
+        "default_title": "Bajate Raho!"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
